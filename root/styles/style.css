@@ -64,3 +64,50 @@ body {
     padding: 1.25rem;
 }
 
+.answer-options {
+    font-size: 4.1875rem;
+    margin-right: .625rem;
+}
+
+.answer-options h1 {
+    cursor: pointer;
+    color: #fff;
+    border-radius: .3125rem;
+    margin-top: .625rem;
+    text-align: center;
+    width: 100%;
+}
+
+/*OPTION 1*/
+#option1 {
+    background-color: #FC6736;
+    transition: .5s;
+}
+
+#option1:hover {
+    color: #FC6736;
+    background-color: #EFECEC;
+}
+
+/*OPTION 2*/
+#option2 {
+    background-color: #8E8FFA;
+    transition: .5s;
+}
+
+#option2:hover {
+    color: #8E8FFA;
+    background-color: #EFECEC;
+}
+
+/*OPTION 3*/
+#option3 {
+    background-color: #64CCC5;
+    transition: .5s;
+}
+
+#option3:hover {
+    color: #64CCC5;
+    background-color: #EFECEC;
+}
+
