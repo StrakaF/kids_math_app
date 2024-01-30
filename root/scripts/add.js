@@ -16,6 +16,10 @@ function generate_equation () {
 
     document.getElementById("num1").innerHTML = num1;
     document.getElementById("num2").innerHTML = num2;
+
+    option1.innerHTML = answer;
+    option2.innerHTML = dummyAnswer1;
+    option3.innerHTML = dummyAnswer2;
 }
 
 option1.addEventListener("click", function() {
@@ -41,3 +45,5 @@ option3.addEventListener("click", function() {
         audio.play();
     }
 });
+
+generate_equation();
