@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Single Day', cursive;
+    background-color: #EFECEC ;
+}
+
+.container {
+    padding: 1.25rem;
+    overflow: hidden;
+    background-color: #7FC7D9;
+}
+
+.container h1 {
+    float: left;
+    margin-left: 10%;
+    color: #fff;
+}
+
+.container ul {
+    list-style-type: none;
+    font-size: 1.25rem;
+    margin-left: 60%;
+}
+
+.container li {
+    margin-top: .625rem;
+    float: left;
+    padding: 0 1.25rem 0 1.25rem;
+}
+
+.container a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.current a::after {
+    content: "<-";
+    margin-left: .625rem;
+    
+    
+    
+}
