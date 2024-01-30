@@ -1,3 +1,4 @@
+/*GENERAL CSS*/
 * {
     padding: 0;
     margin: 0;
@@ -9,6 +10,7 @@ body {
     background-color: #EFECEC ;
 }
 
+/*CONTAINER CSS*/
 .container {
     padding: 1.25rem;
     overflow: hidden;
@@ -38,16 +40,19 @@ body {
     color: #fff;
 }
 
+/*POINTER OF ACTUAL OPERATION*/
 .current a::after {
     content: "<-";
     margin-left: .625rem;
 }
 
+/*WRAPPER CSS*/
 .wrapper {
     display: grid;
     grid-template-columns: 80% 20%;
 }
 
+/*EQUATION CSS*/
 .equation {
     font-size: 4.0625rem;
     background-color: #fff;
@@ -64,6 +69,7 @@ body {
     padding: 1.25rem;
 }
 
+/*ANSWERS CSS*/
 .answer-options {
     font-size: 4.1875rem;
     margin-right: .625rem;
