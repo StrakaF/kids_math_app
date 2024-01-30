@@ -41,7 +41,26 @@ body {
 .current a::after {
     content: "<-";
     margin-left: .625rem;
-    
-    
-    
 }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+.equation {
+    font-size: 4.0625rem;
+    background-color: #fff;
+    border-radius: .1875rem;
+    text-align: center;
+    padding-top: 15%;
+    margin-top: .625rem;
+    margin-left: .625rem;
+    margin-right: .625rem;
+}
+
+.equation h1 {
+    display: inline;
+    padding: 1.25rem;
+}
+
